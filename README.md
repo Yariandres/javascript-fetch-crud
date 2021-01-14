@@ -1,8 +1,11 @@
 # javascript-fetch-crud
 
--   [] Setup files
--   [] create a header / hero section with a title
--   [] Create New Todo Form
+-   [x] Setup files
+-   [x] create a header / hero section with a title
+-   [x] Create New Todo Form
+-   [x] Create filter todos and action buttons
+-   [x] Create a todo component view
+-   [x] add style to the base html
 -   [] Call a function when the form is submitted
 -   [] Create a string property to store the user input
 -   [] Watch the property change as we type in the input

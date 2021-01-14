@@ -7,8 +7,45 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<h1>Javascript Fetch Crud</h1>
-		<p>The place for fetching data</p>
+		<section class="hero">
+			<h1>Javascript Fetch Crud</h1>
+		</section>
+		<section>
+			<form action="">
+				<input type="text" name="todo" id="todo" />
+				<button>Submit todo</button>
+			</form>
+		</section>
+
+		<div>
+			<button>Mark all as completd</button>
+			<button>Delete all todos</button>
+
+			<select name="filter" id="filter">
+				<option value="">--Please choose an option--</option>
+				<option value="All">All</option>
+				<option value="Completed">Completed</option>
+				<option value="Not completd">Not completd</option>
+			</select>
+		</div>
+
+		<div>
+			<ul>
+				<li>
+					<input type="checkbox" name="completed" id="completed" />
+					<a href="#">Clean the house</a>
+					<button>Edit</button>
+					<button>Delete</button>
+				</li>
+				<li>
+					<input type="checkbox" name="completed" id="completed" />
+					<a href="#">Go shopping</a>
+					<button>Edit</button>
+					<button>Delete</button>
+				</li>
+			</ul>
+		</div>
+
 		<script src="script.js"></script>
 	</body>
 </html>
