@@ -1,3 +1,9 @@
+:root {
+	--yell: #f3f5c8;
+	--red: #f5c8c8;
+	--white: #ffffff;
+}
+
 *,
 *::after,
 *::before {
@@ -58,4 +64,28 @@ input[type='text']:focus {
 	border: 1px solid rgb(208, 207, 207);
 	border-radius: 4px;
 	background-color: #c8f5ed;
+}
+
+.action-elements {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 4rem 0;
+}
+
+.btn-action {
+	height: 3rem;
+	padding: 0 1rem;
+	border: 1px solid rgb(208, 207, 207);
+	border-radius: 4px;
+	font-weight: bold;
+}
+
+.ui-yell {
+	background-color: var(--yell);
+}
+
+.ui-red {
+	background-color: var(--red);
 }
