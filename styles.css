@@ -24,7 +24,7 @@ body {
 
 .hero {
 	text-align: center;
-	background-color: rgb(200, 245, 237);
+	background-color: #c8f5ed;
 	padding: 2rem 0;
 }
 
@@ -37,5 +37,25 @@ body {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding: 2rem 0;
+	margin: 4rem 0;
+}
+
+input[type='text'] {
+	width: 35rem;
+	height: 3rem;
+	padding: 0 1rem;
+	border: 1px solid rgb(208, 207, 207);
+	border-radius: 4px;
+}
+
+input[type='text']:focus {
+	background-color: #c8f5ed;
+}
+
+.btn-submit {
+	height: 3rem;
+	padding: 0 1rem;
+	border: 1px solid rgb(208, 207, 207);
+	border-radius: 4px;
+	background-color: #c8f5ed;
 }
