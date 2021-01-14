@@ -11,7 +11,7 @@ html {
 	/* 1rem = 10px */
 	box-sizing: border-box;
 	-ms-overflow-style: scrollbar;
-	color: #f1f2f6;
+	color: #091337;
 }
 body {
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
@@ -19,4 +19,23 @@ body {
 		'Helvetica Neue', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	color: #091337;
+}
+
+.hero {
+	text-align: center;
+	background-color: rgb(200, 245, 237);
+	padding: 2rem 0;
+}
+
+.app-heading {
+	font-size: 6rem;
+}
+
+.app-form {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 2rem 0;
 }
