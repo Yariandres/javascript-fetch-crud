@@ -89,3 +89,52 @@ input[type='text']:focus {
 .ui-red {
 	background-color: var(--red);
 }
+
+.todo-group {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.todo-group,
+ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.list-item {
+	background-color: #c8f5ed;
+	height: fit-content;
+	border-radius: 10px;
+	border: 1px solid #dfdbdb;
+	padding: 1rem;
+	margin: 0 5px;
+	display: flex;
+	flex-direction: column;
+}
+
+.list-link {
+	text-decoration: none;
+	margin: 1rem 0;
+	font-size: 2rem;
+}
+
+.list-link:visited {
+	color: #042149;
+}
+
+.list-link:active {
+	color: #ff9100;
+}
+
+.list-button {
+	height: 3rem;
+	padding: 0 1rem;
+	border: 1px solid rgb(208, 207, 207);
+	border-radius: 4px;
+	font-weight: bold;
+	margin: 5px 0;
+}

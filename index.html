@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<section class="hero">
-			<h1 class="app-heading">Javascript Fetch Crud</h1>
+			<h1 class="app-heading">Javascript Fetch CRUD</h1>
 		</section>
 
 		<section class="app-form">
@@ -23,26 +23,20 @@
 			<button class="btn-action ui-red">Delete all todos</button>
 
 			<select class="btn-action" name="filter" id="filter">
-				<option value="">--Please choose an option--</option>
+				<option value="">Please choose an option</option>
 				<option value="All">All</option>
 				<option value="Completed">Completed</option>
 				<option value="Not completd">Not completd</option>
 			</select>
 		</div>
 
-		<div>
+		<div class="todo-group">
 			<ul>
-				<li>
+				<li class="list-item">
 					<input type="checkbox" name="completed" id="completed" />
-					<a href="#">Clean the house</a>
-					<button>Edit</button>
-					<button>Delete</button>
-				</li>
-				<li>
-					<input type="checkbox" name="completed" id="completed" />
-					<a href="#">Go shopping</a>
-					<button>Edit</button>
-					<button>Delete</button>
+					<a class="list-link" href="#">Clean the house</a>
+					<button class="list-button ui-yell">Edit</button>
+					<button class="list-button ui-red">Delete</button>
 				</li>
 			</ul>
 		</div>
