@@ -19,5 +19,6 @@
 	"homepage": "https://github.com/Yariandres/javascript-fetch-crud#readme",
 	"dependencies": {
 		"json-server": "^0.16.3"
-	}
+	},
+	"proxy": "http://localhost:3000"
 }
