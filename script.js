@@ -37,5 +37,3 @@ window.onload = async function () {
 		todoGroup.appendChild(ul);
 	});
 };
-
-console.log(todoGroup);
