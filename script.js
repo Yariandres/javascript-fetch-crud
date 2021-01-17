@@ -1,7 +1,9 @@
 // DOM selectors
 const todoGroup = document.querySelector('.todo-group');
+const todoForm = document.querySelector('.todo-form');
 
 // Event listeners
+todoForm.addEventListener('click', createTodo);
 
 window.onload = async function () {
 	const fetchUrl = 'http://localhost:3000/todos';
@@ -36,4 +38,10 @@ window.onload = async function () {
 		ul.appendChild(li);
 		todoGroup.appendChild(ul);
 	});
+
 };
+
+function createTodo(event) {
+	event.preventDefault();
+
+}
