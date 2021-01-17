@@ -1,9 +1,10 @@
 // DOM selectors
 const todoGroup = document.querySelector('.todo-group');
-const todoForm = document.querySelector('.todo-form');
+const userInput = document.querySelector('.user-input');
+const postButton = document.querySelector('.btn-submit');
 
 // Event listeners
-todoForm.addEventListener('click', createTodo);
+postButton.addEventListener('click', createTodo);
 
 window.onload = async function () {
 	const fetchUrl = 'http://localhost:3000/todos';
@@ -38,10 +39,31 @@ window.onload = async function () {
 		ul.appendChild(li);
 		todoGroup.appendChild(ul);
 	});
-
 };
 
 function createTodo(event) {
 	event.preventDefault();
 
+	const newTodo = {
+		id: 6,
+		title: userInput.value,
+		completed: false,
+	};
+
+	const postUrl = 'http://localhost:3000/todos';
+
+	fetch(postUrl, {
+		method: 'POST',
+		headers: {
+			'Content-Type': 'application/json',
+		},
+		body: JSON.stringify(newTodo),
+	})
+		.then(response => {
+			if (response.ok) {
+				return response.json();
+			}
+		})
+		.then(() => console.log(response))
+		.catch(err => console.log(err));
 }

@@ -1,14 +1,34 @@
 {
-	"todos": [
-		{
-			"id": 1,
-			"title": "Clean the house",
-			"completed": false
-		},
-		{
-			"id": 2,
-			"title": "Go shopping",
-			"completed": false
-		}
-	]
+  "todos": [
+    {
+      "id": 1,
+      "title": "Clean the house",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "Go shopping",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "title": "Set work alarm",
+      "completed": false
+    },
+    {
+      "id": 4,
+      "title": "Clean the cat",
+      "completed": false
+    },
+    {
+      "id": 5,
+      "title": "Make the bed",
+      "completed": false
+    },
+    {
+      "id": 6,
+      "title": "Set workout alarm",
+      "completed": false
+    }
+  ]
 }
