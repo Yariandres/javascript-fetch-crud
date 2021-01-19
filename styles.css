@@ -95,15 +95,14 @@ input[type='text']:focus {
 	margin: 0 auto;
 }
 
-.todo-group,
-ul {
+.todo-collection {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: flex-start;
 }
 
-.list-item {
+.card {
 	background-color: #c8f5ed;
 	height: fit-content;
 	border-radius: 10px;
@@ -114,30 +113,20 @@ ul {
 	flex-direction: column;
 }
 
-.list-link {
-	text-decoration: none;
-	margin: 1rem 0;
-	font-size: 2rem;
-}
-
-.list-link:visited {
-	color: #042149;
-}
-
-.list-link:active {
-	color: #ff9100;
-}
-
-.list-button {
+.btn {
 	height: 3rem;
 	padding: 0 1rem;
 	border: 1px solid rgb(208, 207, 207);
 	border-radius: 4px;
 	font-weight: bold;
 	margin: 5px 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 2rem;
-	text-decoration: none;
+}
+
+.btn-edit {
+	background-color: rgb(250, 212, 142);
+}
+
+.btn-delete {
+	background-color: rgb(250, 126, 126);
+	color: #fff;
 }

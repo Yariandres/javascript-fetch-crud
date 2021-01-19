@@ -6,11 +6,11 @@
 -   [x] Create filter todos and action buttons
 -   [x] Create a todo component view
 -   [x] add style to the base html
--   [] Call a function when the form is submitted
--   [] Create a string property to store the user input
--   [] Watch the property change as we type in the input
--   [] Log the user input when the form is submitted
--   [] Install fake json server
+-   [x] Call a function when the form is submitted
+-   [x] Create a string property to store the user input
+-   [x] Watch the property change as we type in the input
+-   [x] Log the user input when the form is submitted
+-   [x] Install fake json server
 -   [] Create server api to push new todos array with done: false
 -   [] Fetch and show the todos in a list
 -   [] Check done on a todo to mark it as done
