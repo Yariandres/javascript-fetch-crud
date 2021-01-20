@@ -95,7 +95,7 @@ input[type='text']:focus {
 	margin: 0 auto;
 }
 
-.todo-collection {
+#todo-collection {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
