@@ -13,7 +13,7 @@ function renderTodos(todos) {
 		todoCollection.innerHTML += `
 			<div class="card" data-id="${todo.id}">
 				<h2>${todo.title}</h2>
-				<button class="btn btn-edit">edit</button>
+				<button class="btn btn-edit">Edit</button>
 				<button type="button" class="btn btn-delete">Delete</button>
 			</di>
 		`;
@@ -42,8 +42,25 @@ addTodoForm.addEventListener('submit', function (event) {
 });
 
 todoCollection.addEventListener('click', function (event) {
-
 	let deleteButton = event.target.className === 'btn btn-delete';
+	let editButton = event.target.className === 'btn btn-edit';
+
+	if (editButton) {
+		let id = event.target.parentElement.dataset.id;
+
+		fetch(`http://localhost:3000/todos/${id}`, {
+		method: 'PATCH',
+		headers: {
+			'Content-Type': 'application/json',
+		},
+		body: JSON.stringify({
+			title: `Yoo mamma!`,
+			completed: true,
+		}),
+	})
+		.then(response => response.json())
+		.then(data => console.log(data));
+	}
 
 	if (deleteButton) {
 		let id = event.target.parentElement.dataset.id;
@@ -55,5 +72,6 @@ todoCollection.addEventListener('click', function (event) {
 			.then(fetchTodos);
 	}
 });
+
 
 fetchTodos();
