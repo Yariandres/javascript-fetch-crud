@@ -1,39 +1,24 @@
 {
-  "todos": [
-    {
-      "id": 3913,
-      "title": "Hello from the other side",
-      "completed": true
-    },
-    {
-      "id": 9964,
-      "title": "Hello from the other side",
-      "completed": true
-    },
-    {
-      "title": "Yoo mamma!",
-      "completed": true,
-      "id": 7382
-    },
-    {
-      "title": "Yoo mamma!",
-      "completed": true,
-      "id": 9553
-    },
-    {
-      "title": "Yoo mamma!",
-      "completed": true,
-      "id": 6615
-    },
-    {
-      "title": "Hello from the other side",
-      "completed": true,
-      "id": 6690
-    },
-    {
-      "title": "Yoo mamma!",
-      "completed": true,
-      "id": 2406
-    }
-  ]
+	"todos": [
+		{
+			"id": 3913,
+			"title": "Hello from the other side",
+			"completed": true
+		},
+		{
+			"id": 9964,
+			"title": "Clean the house",
+			"completed": true
+		},
+		{
+			"id": 9954,
+			"title": "Wash the car",
+			"completed": true
+		},
+		{
+			"id": 3245,
+			"title": "Cook food",
+			"completed": true
+		}
+	]
 }
