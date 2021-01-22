@@ -4,6 +4,8 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Details page!</title>
+
+		<link rel="stylesheet" href="css/styles.css" />
 	</head>
 	<body>
 		<nav>
@@ -13,7 +15,24 @@
 		</nav>
 		<h1>Todo details</h1>
 
-		<div id="details"></div>
+		<div id="details">
+			<h2 class="msgLoading">loading...</h2>
+		</div>
+
+		<input
+			type="button"
+			class="btn btn-info"
+			value="Edit"
+			onclick="handleEdit()"
+		/>
+
+		<input
+			type="button"
+			class="btn"
+			value="Delete"
+			onclick="handleDelete()"
+		/>
+		<h2 class="msgDeleted" id="hideText">Todo successfully deleted!</h2>
 
 		<script src="./js/details.js"></script>
 	</body>

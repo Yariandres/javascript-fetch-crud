@@ -3,7 +3,9 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Dashboard</title>
+
+		<link rel="stylesheet" href="css/styles.css" />
 	</head>
 	<body>
 		<nav>
@@ -11,7 +13,24 @@
 				<li><a href="index.html">Home</a></li>
 			</ul>
 		</nav>
-		<h1>Dashboard page!</h1>
+		<h1>Welcome to your dashboard</h1>
+
+		<form onsubmit="handleSubmit(event)">
+			<label for="title">Todo title</label>
+			<input
+				type="text"
+				class="form-control"
+				id="title"
+				placeholder="Discribe your todo..."
+				required
+			/>
+
+			<button type="submit" value="Submit todo">
+				<h2 id="hideText">Processing...</h2>
+				Submit
+			</button>
+		</form>
+
 		<script src="./js/back.js"></script>
 	</body>
 </html>

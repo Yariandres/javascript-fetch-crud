@@ -1,24 +1,39 @@
 {
-	"todos": [
-		{
-			"id": 3913,
-			"title": "Hello from the other side",
-			"completed": true
-		},
-		{
-			"id": 9964,
-			"title": "Clean the house",
-			"completed": true
-		},
-		{
-			"id": 9954,
-			"title": "Wash the car",
-			"completed": true
-		},
-		{
-			"id": 3245,
-			"title": "Cook food",
-			"completed": true
-		}
-	]
+  "todos": [
+    {
+      "id": 3245,
+      "title": "Cook food",
+      "completed": true
+    },
+    {
+      "id": 3247,
+      "title": "Work on the kitchen",
+      "completed": true
+    },
+    {
+      "id": 3248,
+      "title": "Wash the plates",
+      "completed": true
+    },
+    {
+      "id": 3249,
+      "title": "Do the shopping",
+      "completed": true
+    },
+    {
+      "id": 3250,
+      "title": "Learn kizomba",
+      "completed": true
+    },
+    {
+      "id": 3231,
+      "title": "Do the shopping",
+      "completed": true
+    },
+    {
+      "id": 3232,
+      "title": "Learn how to dance",
+      "completed": true
+    }
+  ]
 }
