@@ -16,7 +16,7 @@ window.onload = async () => {
                     <span>${todo.title}</span>
                     <span>${todo.completed}</span>
                     <span>
-                        <a href="details.html?id${todo.id}">View details</a>
+                        <a href="details.html?id=${todo.id}">View details</a>
                     </span>
                 `;
                 currentEvents.appendChild(listItem)
