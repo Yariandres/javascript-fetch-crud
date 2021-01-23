@@ -2,8 +2,8 @@
   "todos": [
     {
       "id": 3245,
-      "title": "Cook food",
-      "completed": true
+      "title": "Cook food, EDITED",
+      "completed": false
     },
     {
       "id": 3247,
