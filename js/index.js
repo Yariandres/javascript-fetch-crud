@@ -13,10 +13,10 @@ window.onload = async () => {
                 let listItem = document.createElement('li');
                 listItem.classList.add('listItem');
                 listItem.innerHTML = `
-                    <span>${todo.title}</span>
-                    <span>${todo.completed}</span>
-                    <span>
-                        <a href="details.html?id=${todo.id}">View details</a>
+                    <h3 class="todo-title">${todo.title}</h3>
+                    <span class="todo-completed">Completed: ${todo.completed}</span>
+                    <span class="todo-link">
+                        <a href="details.html?id=${todo.id}" >View details</a>
                     </span>
                 `;
                 currentEvents.appendChild(listItem)

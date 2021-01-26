@@ -1,7 +1,79 @@
+/* Simple RESETS */
+
+* {
+	box-sizing: border-box;
+}
+html {
+	font-family: sans-serif;
+}
+
+/* HELPPERS  */
 #hideText {
 	display: none;
 }
 
 .sendAlert {
 	display: none;
+}
+
+/* MAIN */
+
+.list-group {
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+	margin: 0;
+}
+
+.head-line {
+	text-align: center;
+}
+
+.todo-list {
+	display: flex;
+	justify-content: center;
+}
+
+#currentTodos {
+	margin: 0;
+	padding: 0;
+}
+
+.listItem {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid rgb(223, 223, 223);
+	margin-bottom: 1rem;
+	border-radius: 1rem;
+	padding: 1rem;
+
+	box-shadow: #63636333 0px 2px 8px 0px;
+}
+
+.details-card {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid rgb(223, 223, 223);
+	margin-bottom: 1rem;
+	border-radius: 1rem;
+	padding: 1rem;
+	width: 40%;
+}
+
+.list-item {
+	list-style: none;
+}
+
+.todo-title {
+	margin: 0;
+	padding: 0;
+}
+.todo-completed {
+	text-align: right;
+	margin: 5px 0;
+}
+
+.todo-link {
+	text-decoration: none !important;
+	text-align: center;
 }
